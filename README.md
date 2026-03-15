@@ -48,3 +48,7 @@ Nova-Scholar is an autonomous AI agent designed to revolutionize academic litera
 * Enter a complex research query into the main search interface (e.g., "Self-reflecting capabilities in autonomous LLM agents").
 
 * Click "Deploy Autonomous Agent" and allow the engine to navigate the web, extract data, and generate the analytical summary.
+
+## Disclaimer
+
+* This project was developed as a proof-of-concept for the Devpost hackathon. Users are responsible for their own AWS Bedrock API usage costs when running this application locally or via cloud deployment.
