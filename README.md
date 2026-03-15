@@ -37,3 +37,14 @@ Nova-Scholar is an autonomous AI agent designed to revolutionize academic litera
 4. **Launch the application:**
 
        streamlit run app.py
+
+
+## Usage
+
+* Launch the Streamlit application via the terminal command above.
+
+* Open the configuration sidebar on the left and securely enter your AWS Bedrock API Key.
+
+* Enter a complex research query into the main search interface (e.g., "Self-reflecting capabilities in autonomous LLM agents").
+
+* Click "Deploy Autonomous Agent" and allow the engine to navigate the web, extract data, and generate the analytical summary.
