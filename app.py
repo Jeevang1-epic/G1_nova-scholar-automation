@@ -8,9 +8,10 @@ from nova_scholar_core import scrape_arxiv, analyze_with_nova
 if sys.platform == "win32":
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
-ICON_PATH = "icons/logo.png"
-SETTINGS_ICON = "icons/settings.png" 
-ERROR_ICON = "icons/error.png"       
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ICON_PATH = os.path.join(BASE_DIR, "icons", "logo.png")
+SETTINGS_ICON = os.path.join(BASE_DIR, "icons", "settings.png")
+ERROR_ICON = os.path.join(BASE_DIR, "icons", "error.png")
 
 if os.path.exists(ICON_PATH):
     st.set_page_config(page_title="Nova-Scholar", page_icon=ICON_PATH, layout="centered")
