@@ -1,5 +1,5 @@
 # Nova-Scholar
-### [**CLICK THIS TO WATCH AND TRY THE LIVE DEMO**](https://nova-scholar.streamlit.app/)
+### [**CLICK THIS TO WATCH AND TRY THE LIVE DEMO**](https://g1nova-scholar-automation-g2ztc7sqemxhc6ukpgkf9n.streamlit.app/)
 **Agentic Web Research & Automation Assistant**
 
 Nova-Scholar is an autonomous AI agent designed to revolutionize academic literature reviews. Moving beyond static datasets, this system utilizes dynamic UI automation to browse the live web, extract the latest research papers, and synthesize highly technical summaries using Amazon's frontier models.
