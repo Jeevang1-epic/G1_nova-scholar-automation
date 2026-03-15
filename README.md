@@ -33,3 +33,7 @@ Nova-Scholar is an autonomous AI agent designed to revolutionize academic litera
 3. **Install Playwright browser binaries:**
 
        playwright install
+
+4. **Launch the application:**
+
+       streamlit run app.py
