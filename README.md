@@ -25,3 +25,7 @@ Nova-Scholar is an autonomous AI agent designed to revolutionize academic litera
    
        git clone [https://github.com/yourusername/nova-scholar.git](https://github.com/yourusername/nova-scholar.git)
        cd nova-scholar
+
+2. **Install Playwright browser binaries:**
+
+       playwright install
