@@ -5,6 +5,8 @@ import re
 import streamlit as st
 from nova_scholar_core import scrape_arxiv, analyze_with_nova
 
+os.system("playwright install chromium") 
+
 if sys.platform == "win32":
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
